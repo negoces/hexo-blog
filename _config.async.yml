@@ -1,0 +1,120 @@
+theme:
+  switch: true
+  default: style-dark
+
+assets:
+  internal_provider: local
+  third_party_provider: https://npm.elemecdn.com
+
+user:
+  name: negoces
+  first_name: Sai
+  last_name: Kingyo
+  email: nego@nekodayo.top
+  domain: https://nekodayo.top
+  avatar: /img/avatar.jpg
+  describe: 网站简介。
+  ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
+
+top_bars:
+  - title: home
+    url: /
+    children:
+      - title: archives2
+        url: /archives2/
+  - title: archives
+    url: /archives/
+    noswup: true
+
+sidebar:
+  social: # 社交地址
+    - name: github
+      icon: fab fa-github
+      url: https://github.com/negoces
+  typedTextPrefix: I`m
+  typedText: ["Arch Linux User", "Debian User"]
+  info: # 个人信息
+    - key: Country
+      val: China
+
+toc:
+  enable: true
+  list_number: true
+  max_depth: 3
+  min_depth: 1
+
+lazyload:
+  enable: true
+
+archive:
+  type: more
+
+creative_commons:
+  license: by-nc-sa
+  language: deed.zh
+  post: true
+  clipboard: false
+
+post_pagination:
+  enable: true
+  type: large
+
+datetime_foramt:
+  post_card:
+    date: YYYY/MM/DD
+    time: HH:mm
+  post_info:
+    date: YYYY/MM/DD
+    time: HH:mm
+  archive:
+    date: YYYY/MM/DD
+    time: HH:mm
+
+notice_outdate:
+  enable: true
+  style: flat
+  limit_day: 90
+  position: top
+
+rightside:
+  readmode: true
+  aside: true
+
+footer:
+  powered:
+    enable: false
+  beian:
+    enable: false
+    icp:
+  copyrightYear: 2020
+  live_time:
+    enable: false
+    prefix: footer.tips
+    start_time: 01/01/2020 00:00:00
+  custom_text:
+
+reward:
+  enable: true
+  comment: <del> 我很可爱 请给我钱 </del>
+  methods:
+    - name: 支付宝
+      path: avatar.png
+
+highlight:
+  theme: true
+  title: mac
+  copy: true
+  lang: true
+  code_word_wrap: fasle
+  height_limit: 200 # 超出时，显示折叠按钮
+
+katex:
+  copy_tex: true
+  global: true
+  options: {}
+
+search:
+  enable: true
+  type: local
+  preload: fasle
+  trigger: auto
