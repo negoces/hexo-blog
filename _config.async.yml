@@ -19,9 +19,9 @@ user:
 top_bars:
   - title: home
     url: /
-    children:
-      - title: archives2
-        url: /archives2/
+    # children:
+    #   - title: archives2
+    #     url: /archives2/
   - title: archives
     url: /archives/
     noswup: true
@@ -118,3 +118,20 @@ search:
   type: local
   preload: fasle
   trigger: auto
+
+comment:
+  giscus:
+    enable: true
+    repo: negoces/hexo-blog
+    repo-id: R_kgDOKACK3w
+    category: General
+    category-id: DIC_kwDOKACK384CYJV3
+    mapping: pathname
+    reactions-enabled: 1
+    emit-metadata: 0
+    input-position: top
+    loading: lazy
+    lang: zh-CN
+    theme: 
+      light: light
+      dark: dark
