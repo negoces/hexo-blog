@@ -5,15 +5,15 @@
 # Site
 title: negoces の 博客
 subtitle: "人最重要的特点是会思考，写博客的初衷是保存思维的电子快照。 当然各种文档工具亦或是简单的文本编辑器也能随时记录点滴，选择建个人网站无非是想满足技术爱好者的偏执。"
-description: ""
-keywords:
+description: "negoces の 博客"
+keywords: [negoces, saikingyo, blog]
 author: negoces
 language: zh-Hans
 timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://nekodayo.top
+url: https://blog.nekodayo.top
 permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
