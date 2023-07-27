@@ -10,7 +10,6 @@ cdn:
   css:
     - //npm.elemecdn.com/lxgw-wenkai-webfont@1.7.0/style.css
     - //cdn.bytedance.com/cdn/expire-1-M/firacode/6.2.0/fira_code.min.css
-    - /assets/css/fonts.css
   js:
     defer:
       - /_vercel/insights/script.js
