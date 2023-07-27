@@ -126,10 +126,10 @@ footer:
 
 reward:
   enable: true
-  comment: <del> 我很可爱 请给我钱 </del>
+  comment: <del> 我很可爱，请给我钱 </del>
   methods:
-    - name: 支付宝
-      path: /assets/img/avatar.png
+    - name: 富婆！饿饿！饭饭！
+      path: /assets/img/mm_reward.png
 
 highlight:
   theme: true
