@@ -10,11 +10,11 @@ cdn:
   js:
     defer: /_vercel/insights/script.js
 
-# favicon:
-#   logo: favicon-32x32.png
-#   icon16: favicon-16x16.png
-#   icon32: favicon-32x32.png
-#   appleTouchIcon: apple-touch-icon.png
+favicon:
+  logo: /assets/favicon.ico
+  icon16: /assets/favicon.ico
+  icon32: /assets/favicon.ico
+  appleTouchIcon: /assets/img/avatar.png
 #   webmanifest: /site.webmanifest
 
 user:
@@ -23,7 +23,7 @@ user:
   last_name: Kingyo
   email: nego@nekodayo.top
   domain: https://nekodayo.top
-  avatar: /img/avatar.jpg
+  avatar: /assets/img/avatar.png
   describe: 现实中我们用真名说假话，网络中我们用假名说真话
   ruleText: 朋友多多，欢乐多多
 
@@ -37,9 +37,6 @@ banner:
 top_bars:
   - title: home
     url: /
-    # children:
-    #   - title: archives2
-    #     url: /archives2/
   - title: archives
     url: /archives/
     children:
@@ -127,7 +124,7 @@ reward:
   comment: <del> 我很可爱 请给我钱 </del>
   methods:
     - name: 支付宝
-      path: avatar.png
+      path: /assets/img/avatar.png
 
 highlight:
   theme: true
