@@ -10,6 +10,13 @@ cdn:
   js:
     defer: /_vercel/insights/script.js
 
+# favicon:
+#   logo: favicon-32x32.png
+#   icon16: favicon-16x16.png
+#   icon32: favicon-32x32.png
+#   appleTouchIcon: apple-touch-icon.png
+#   webmanifest: /site.webmanifest
+
 user:
   name: negoces
   first_name: Sai
@@ -19,6 +26,13 @@ user:
   avatar: /img/avatar.jpg
   describe: 现实中我们用真名说假话，网络中我们用假名说真话
   ruleText: 朋友多多，欢乐多多
+
+banner:
+  index:
+    type: img
+    bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg?source=1940ef5c
+    bannerTitle: 树深时见鹿，<br>溪午不闻钟。
+    bannerText: Hi my new friend!
 
 top_bars:
   - title: home
@@ -72,7 +86,7 @@ creative_commons:
 
 post_pagination:
   enable: true
-  type: large
+  type: small
 
 datetime_foramt:
   post_card:
