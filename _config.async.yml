@@ -6,6 +6,10 @@ assets:
   internal_provider: local
   third_party_provider: https://npm.elemecdn.com
 
+cdn:
+  js:
+    defer: /_vercel/insights/script.js
+
 user:
   name: negoces
   first_name: Sai
@@ -36,6 +40,8 @@ sidebar:
   info: # 个人信息
     - key: Country
       val: China
+    - key: Age
+      val: 403 Forbidden
 
 toc:
   enable: true
@@ -132,6 +138,6 @@ comment:
     input-position: top
     loading: lazy
     lang: zh-CN
-    theme: 
+    theme:
       light: light
       dark: dark
