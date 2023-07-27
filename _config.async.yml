@@ -17,8 +17,8 @@ user:
   email: nego@nekodayo.top
   domain: https://nekodayo.top
   avatar: /img/avatar.jpg
-  describe: 网站简介。
-  ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
+  describe: 现实中我们用真名说假话，网络中我们用假名说真话
+  ruleText: 朋友多多，欢乐多多
 
 top_bars:
   - title: home
@@ -28,7 +28,16 @@ top_bars:
     #     url: /archives2/
   - title: archives
     url: /archives/
-    noswup: true
+    children:
+      - title: categories
+        url: /categories/
+      - title: tags
+        url: /tags/
+    # noswup: true
+  - title: links
+    url: /links/
+  - title: about
+    url: /about/
 
 sidebar:
   social: # 社交地址
