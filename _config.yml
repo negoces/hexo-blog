@@ -22,7 +22,7 @@ pretty_urls:
 
 # Sitemap
 sitemap:
-  path: 
+  path:
     - sitemap.xml
     - sitemap.txt
   template: template/sitemap.xml

@@ -165,3 +165,6 @@ comment:
     theme:
       light: light
       dark: dark
+
+layout:
+  post_info: async/post/post-info
