@@ -141,7 +141,7 @@ highlight:
   copy: true
   lang: true
   code_word_wrap: fasle
-  height_limit: 200 # 超出时，显示折叠按钮
+  height_limit: 0 # 超出时，显示折叠按钮
 
 katex:
   copy_tex: true
