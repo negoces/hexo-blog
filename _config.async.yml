@@ -29,7 +29,12 @@ user:
   domain: https://blog.nekodayo.top
   avatar: /assets/img/avatar.png
   describe: 现实中我们用真名说假话，网络中我们用假名说真话
-  ruleText: 全站 HTTPS; 无论原创还是转载，干货要多，经过验证; 页面无广告;
+  ruleText: |
+    <ul>
+      <li>全站 HTTPS</li>
+      <li>无论原创还是转载，内容需经过验证，确保真实有效</li>
+      <li>个人博客，页面无广告，无推广</li>
+    <ul>
 
 banner:
   index:
