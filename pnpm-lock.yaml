@@ -45,8 +45,8 @@ dependencies:
     specifier: ^3.0.0
     version: 3.0.0
   hexo-theme-async:
-    specifier: ^2.0.9
-    version: 2.0.9
+    specifier: ^2.1.9
+    version: 2.1.9
 
 packages:
 
@@ -829,8 +829,8 @@ packages:
       - supports-color
     dev: false
 
-  /hexo-theme-async@2.0.9:
-    resolution: {integrity: sha512-ibrv4CPYBCZ7U4jAipXTuNSqOWVGiwttkhPSfRiOwVAdpf32tP1UGjmKRQtfp/qD4+IU5eweqaiR+k1PgWA3qA==}
+  /hexo-theme-async@2.1.9:
+    resolution: {integrity: sha512-OHjqrUgJgEbG0o3/NZnm4ihosMA8RZrD7UcNpVvPGKJeOdxvOEyRQ2DeKubP38VXL8pwGNpVlpfrhH7qobwDvw==}
     dev: false
 
   /hexo-util@2.7.0:
